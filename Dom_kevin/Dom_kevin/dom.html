@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><EXERCICIOS-DOM</title>
+         <link rel="stylesheet" href="http://fonts.googleapis.com/css2/fanily-Material+Symbols+Outlined:opsz.ught.FILL,GRAD020..48,100.-700,0.1,-50.:280*" type="image/x-icon">
+
+         <!--css-->
+         <link rel="stylesheet" href="/dom.css">
+</head>
+
+<body>
+
+    <article>
+    <h1>Exrcício sobre dom</h1>
+    <h2>Manipulação do dom</h2>    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_7D6QYYlyNpbfVCAOCtSMIxJEJfER81Wtkg&s" alt="#" width="300" height="400">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ShhJpvNET3X-h4J4AnIPt1Gq-kkws-0Viw&s" alt="#" width="300" height="400">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdVQimdbbb03GCoKB3rL2ARLSdesqRr9VIcA&s" alt="#" width="300" height="400">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROjP2rsPlx8hV_6GAI5v1ENogC_9np6jpaoQ&s" alt="#" width="300" height="400">
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Reprehenderit magnam, at, est cumque in totam quaerat 
+    repellat quae labore eos doloribus porro minima quasi ab 
+    iusto officiis deserunt, necessitatibus laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Reprehenderit magnam, at, est cumque in totam quaerat 
+    repellat quae labore eos doloribus porro minima quasi ab 
+    iusto officiis deserunt, necessitatibus laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Reprehenderit magnam, at, est cumque in totam quaerat 
+    repellat quae labore eos doloribus porro minima quasi ab 
+    iusto officiis deserunt, necessitatibus laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Reprehenderit magnam, at, est cumque in totam quaerat 
+    repellat quae labore eos doloribus porro minima quasi ab 
+    iusto officiis deserunt, necessitatibus laudantium.</p>
+<h2>Exemplo de manipulação Dom</h2>
+<p id="meuParagrafo">Este é um paragrafo.</p>
+<button onclick="alterartexto()">Alterar texto</button>
+
+</body>
+</article>
+
+<script>
+    function  alterartexto(){
+        const paragrafo = document.getElementById("meuParagrafo");
+        //come!case (evento)(estrutura)
+        //
+        paragrafo.textContent = "o texto foi alterado!"
+        }
+
+</script>
+
+
+</html>
